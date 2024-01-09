@@ -75,6 +75,7 @@
 
     <?php include "page2.php" ?>
     <?php include "page3.php" ?>
+    <?php include "page4.php" ?>
 
 </body>
 
