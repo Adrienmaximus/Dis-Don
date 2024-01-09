@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 50px auto;
+    max-width: 1000px;
+}
+
+.container-fluid {
+    margin: 0 auto;
+    width: 100%;
+    height: 600px;
+    background-color: #35C6F4;
+
+}
+
+h1, .sous-titre {
+    color: white;
+    padding: 0px;
+    font-size: small;
+    font-style: italic;
+}
+.sous-titre {
+    text-align: right;
+    padding-top: 0px;
+}
+h1 {
+    font-size: 500%;
+    font-style: normal;
+}
+
+#connexion {
+    text-size-adjust: 40px;
+    color: #3AB7FF;
+    text-decoration: solid;
+    background-color: #94E0F9;
+    border: none;
+    font-weight: 900;
+}
+
+.chevron {
+    height: 100px;
+    width: 100px;
+}
+
+.bouton-fuchsia {
+    background-color: #E44B92;
+    /* Rose fuchsia */
+    color: white;
+    /* Texte blanc */
+    border: none;
+    /* Supprime la bordure par défaut */
+    border-radius: 50px;
+    /* Coins arrondis */
+    cursor: pointer;
+    /* Curseur de la souris change au survol */
+}
+
+/* -----------------PAGE---------------------- */
+/* -------------FORMULAIRE INSCRIPTION-------------------------- */
+.titre_inscription{
+    color: white;
+    font-weight: bold;
+}
+.rounded{
+    background-color: #94E0F9;
+    border-radius: 50px;
+}
