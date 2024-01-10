@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulaire Inscription
+    <title>Dis-DON
     </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,43 +14,69 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <!-----------------------------Partie sup------------------------------->
-        <div class="col-12 d-flex justify-content-end">
-            <div class="col-7 row rounded m-3 p-1 text-center">
-                <div class="titre_inscription">FORMULAIRE D'INSCRIPTION</div>
-                <div class="sous-titre_inscription ">(TPE / PME / ASSOCIATION / STRUCTURE publique ou privée)</div>
+
+    <!----------------------------Page inscription--------------------------->
+    <!------------------------------------------------------------------------->
+    <div class="row d-flex container-fluid col-12">
+        <!-------------------------------------zone a gauche---------------------------->
+        <!------------------------------------------------------------------------------->
+        <div class="col-7 partie gauche p-3">
+            <div class="d-grid gap-2 col-6 mx-auto p-3 mt-5">
+                <button type="button" class="btn" id="connexion" disabled data-bs-toggle="button">PAGE DE CONNEXION</button>
+            </div>
+
+            <div class="info connexion border-2 border-end py-3 px-2">
+                <div class="inscription row flex align-items-center">
+                    <div class="col-6 text-white text-center">Identifiant</div>
+                    <div class="form-floating mb-3 m col-6">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label class="col-12 text-center opacity-25" for="floatingInput">Email</label>
+                    </div>
+
+                </div>
+                <div class="inscription row flex align-items-center">
+
+                    <div class="col-6 text-white text-center">Mot de passe</div>
+
+                    <div class="form-floating col-6">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label class="col-12 fs-20 text-center py-1 opacity-25" for="floatingPassword">(8 caractères minimum dont<br> 1 majuscule,1 chiffre et 1 miniscule)</label>
+                    </div>
+                </div>
             </div>
         </div>
-        <!--------------------------partie gauche-1------------------------------>
-        <!------------------------------------------------------------------->
-        <Div class="col-12">
-            <div class="col-5 d-flex align-items-center">
-                <img class="col-3 p-2" src="image/logo blanc.png" alt="">
-                <div class="col-9 d-flex justify-content-end pe-4">
-                    <h1 class="m-0">Dis-Don</h1>
+
+
+        <!-------------------------------------zone a droite------------------------------->
+        <!--------------------------------------------------------------------------------------->
+        <div class="col-5">
+            <div class="col-12 d-flex align-items-center mt-3">
+                <img class="col-3" src="image/logo blanc.png" alt="">
+                <div class="col-9">
+                    <h1>Dis-Don</h1>
                 </div>
             </div>
-            <div class="col-12 d-flex">
-                <p class="col-5 sous-titre pe-4">le dispositif Dis-Don est un portail réservé<br>aux organisments et tous utilisateurs<br>domiciliés en France</p>
 
-                <!--------------------------partie droite-1------------------------------>
-                <!------------------------------------------------------------------->
-
-                <div class="col-7 d-flex row justify-content-end text-white">
-                    <div class="col-6 m-0">
-                        <h5>Nom de votre organisme *</h5>
-                        <h6>(Ecrivez ici le nom déclaré en prefecture de votre association, fondation ou fonds de dotation tel qu'il est déclaré en préfecture, et non un diminutif ou un nom d'usage.)</h6>
-                    </div>
-                    
-                    <div class=" col-6 form-floating">
-                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 60px"></textarea>
-                        <label for="floatingTextarea2">Comments</label>
-                    </div>
-                    </div>
-
-                </div>
+            <p class="sous-titre">le dispositif Dis-Don est un portail réservé<br>aux organisments et tous utilisateurs<br>domiciliés en France</p>
+            <div class="col-12 d-flex justify-content-center">
+                <img class="chevron" src="chevron.png" alt="double chevron vers le bas">
+            </div>
+            <div class="d-flex justify-content-center">
+                <button class="col-6 m-3 bouton-fuchsia">Premiere connexion,<br>inscrivez-vous<br>gratuitement ici!</button>
+            </div>
+            <div class="col-12 d-flex justify-content-center">
+                <a class="m-3 text-center text-white" href="">Continuez sans se connecter</a>
 
             </div>
         </div>
     </div>
+
+
+
+
+    <?php include "page2.php" ?>
+    <?php include "page3.php" ?>
+
+</body>
+
+</html>
