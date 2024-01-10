@@ -59,7 +59,7 @@
 
             <p class="sous-titre">le dispositif Dis-Don est un portail réservé<br>aux organisments et tous utilisateurs<br>domiciliés en France</p>
             <div class="col-12 d-flex justify-content-center">
-                <img class="chevron" src="chevron.png" alt="double chevron vers le bas">
+                <img class="chevron" src="image/chevron.png" alt="double chevron vers le bas">
             </div>
             <div class="d-flex justify-content-center">
                 <button class="col-6 m-3 bouton-fuchsia">Premiere connexion,<br>inscrivez-vous<br>gratuitement ici!</button>
@@ -70,12 +70,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-    <?php include "page2.php" ?>
-    <?php include "page3.php" ?>
 
 </body>
 
