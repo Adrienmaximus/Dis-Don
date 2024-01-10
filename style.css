@@ -68,3 +68,16 @@ h1 {
     background-color: #94E0F9;
     border-radius: 50px;
 }
+.fs-8{
+    font-size: small;
+}
+.tx-9{
+    color:black;
+    font-size: 1;
+}
+.h7{
+    color: white;
+    padding: 0px;
+    font-size: x-small;
+    font-style: normal;
+}

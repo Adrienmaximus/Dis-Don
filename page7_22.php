@@ -22,9 +22,10 @@
                 <div class="sous-titre_inscription ">(TPE / PME / ASSOCIATION / STRUCTURE publique ou privée)</div>
             </div>
         </div>
-        <!--------------------------partie gauche-1------------------------------>
-        <!------------------------------------------------------------------->
+      
         <Div class="col-12">
+  <!--------------------------partie gauche-1------------------------------>
+        <!------------------------------------------------------------------->
             <div class="col-5 d-flex align-items-center">
                 <img class="col-3 p-2" src="image/logo blanc.png" alt="">
                 <div class="col-9 d-flex justify-content-end pe-4">
@@ -38,19 +39,22 @@
                 <!------------------------------------------------------------------->
 
                 <div class="col-7 d-flex row justify-content-end text-white">
+                    <p class="col-7 fs-6 text-end m-1">*renseignement obligatoire</p>
                     <div class="col-6 m-0">
-                        <h5>Nom de votre organisme *</h5>
-                        <h6>(Ecrivez ici le nom déclaré en prefecture de votre association, fondation ou fonds de dotation tel qu'il est déclaré en préfecture, et non un diminutif ou un nom d'usage.)</h6>
-                    </div>
-                    
-                    <div class=" col-6 form-floating">
-                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 60px"></textarea>
-                        <label for="floatingTextarea2">Comments</label>
-                    </div>
+                        <h5 class="m-0">Nom de votre organisme *</h5>
+                        <div class="text-wrap text-center sous-titre">
+                            (Ecrivez ici le nom déclaré en prefecture de votre association, fondation ou fonds de dotation tel qu'il est déclaré en préfecture, et non un diminutif ou un nom d'usage.)
+                        </div>
                     </div>
 
+                    <div class=" col-6 form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 60px"></textarea>
+                        <label class="text-dark opacity-25" for="floatingTextarea2">100 caractères</label>
+                    </div>
                 </div>
 
             </div>
+
         </div>
+    </div>
     </div>
