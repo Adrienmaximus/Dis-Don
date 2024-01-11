@@ -16,17 +16,28 @@ body{
 
 }
 
-h1, .sous-titre {
+.sous-titre {
     color: white;
     padding: 0px;
     font-size: small;
     font-style: italic;
-}
-.sous-titre {
     text-align: right;
     padding-top: 0px;
+    padding-right: 15px;
+}
+.sous-titre-2 {
+    color: white;
+    padding: 0px;
+    font-size: x-small;
+    text-align: right;
+    padding-top: 0px;
+    text-align: justify;
 }
 h1 {
+    color: white;
+    padding: 0px;
+    font-size: small;
+    font-style: italic;
     font-size: 500%;
     font-style: normal;
 }
@@ -68,16 +79,8 @@ h1 {
     background-color: #94E0F9;
     border-radius: 50px;
 }
-.fs-8{
-    font-size: small;
-}
-.tx-9{
-    color:black;
-    font-size: 1;
-}
-.h7{
-    color: white;
-    padding: 0px;
-    font-size: x-small;
-    font-style: normal;
+.r-4{
+    background-color: #94E0F9;
+    border-radius: 1rem;
+
 }

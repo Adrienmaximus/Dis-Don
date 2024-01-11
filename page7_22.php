@@ -17,44 +17,53 @@
     <div class="container-fluid">
         <!-----------------------------Partie sup------------------------------->
         <div class="col-12 d-flex justify-content-end">
-            <div class="col-7 row rounded m-3 p-1 text-center">
+
+            <div class="col-7 row r-4 m-3 p-1 text-center">
                 <div class="titre_inscription">FORMULAIRE D'INSCRIPTION</div>
                 <div class="sous-titre_inscription ">(TPE / PME / ASSOCIATION / STRUCTURE publique ou privée)</div>
             </div>
         </div>
-      
-        <Div class="col-12">
-  <!--------------------------partie gauche-1------------------------------>
+        <!-----------------------------Partie Milieu------------------------------->
         <!------------------------------------------------------------------->
-            <div class="col-5 d-flex align-items-center">
-                <img class="col-3 p-2" src="image/logo blanc.png" alt="">
-                <div class="col-9 d-flex justify-content-end pe-4">
-                    <h1 class="m-0">Dis-Don</h1>
+
+        <Div class="col-12 p-1 d-flex justify-content-between">
+            <!--------------------------partie gauche-1------------------------------>
+            <div class="col-4 d-flex flex-wrap">
+                <div class="col-12 d-flex flex-wrap align-items-center">
+                    <img class="col-3 p-2" src="image/logo blanc.png" alt="">
+                    <div class="col-8 d-flex justify-content-start text-white pe-3" style="font-size:3rem">Dis-Don</div>
                 </div>
+                <div class="col-10 sous-titre">le dispositif Dis-Don est un portail réservé<br>aux organisments et tous utilisateurs<br>domiciliés en France</div>
             </div>
-            <div class="col-12 d-flex">
-                <p class="col-5 sous-titre pe-4">le dispositif Dis-Don est un portail réservé<br>aux organisments et tous utilisateurs<br>domiciliés en France</p>
 
-                <!--------------------------partie droite-1------------------------------>
-                <!------------------------------------------------------------------->
+            <!--------------------------partie droite-1------------------------------>
+            <div class="col-8 d-flex flex-wrap justify-content-end text-white">
+                <div class="col-12 fs-6 text-end m-1">*renseignement obligatoire
+                </div>
 
-                <div class="col-7 d-flex row justify-content-end text-white">
-                    <p class="col-7 fs-6 text-end m-1">*renseignement obligatoire</p>
-                    <div class="col-6 m-0">
-                        <h5 class="m-0">Nom de votre organisme *</h5>
-                        <div class="text-wrap text-center sous-titre">
-                            (Ecrivez ici le nom déclaré en prefecture de votre association, fondation ou fonds de dotation tel qu'il est déclaré en préfecture, et non un diminutif ou un nom d'usage.)
+                <div class="col-6 p-1">
+                    <h5 class="m-0 text-end pe-4">Nom de votre organisme *</h5>
+                    <div class="sous-titre-2 px-4 ps-5">
+                        (Ecrivez ici le nom déclaré en prefecture de votre association, fondation ou fonds de dotation tel qu'il est déclaré en préfecture, et non un diminutif ou un nom d'usage.)
+                    </div>
+                </div>
+                <div class=" col-6 form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 60px"></textarea>
+                    <label class="text-dark opacity-25" for="floatingTextarea2">100 caractères</label>
+                </div>
+                <div class="col-6 text-white d-flex align-items-center justify-content-end px-4"> Numéro de SIRET</div>
+                <div class="col-6">
+                    <form>
+                        <div class="form-floating">
+                            <!-- <label for="exampleFormControlInput1">Numéro de SIRET</label> -->
+                            <input type="text" class="form-control text-center" id="siretNumber" placeholder="14 chiffres" pattern="[0-9]{14}" required>
+                    <label class="text-dark opacity-25" for="siretNumber">14 caractères</label>
+
                         </div>
-                    </div>
-
-                    <div class=" col-6 form-floating">
-                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 60px"></textarea>
-                        <label class="text-dark opacity-25" for="floatingTextarea2">100 caractères</label>
-                    </div>
+                        <!-- Vous pouvez ajouter d'autres champs de formulaire ici -->
+                    </form>
                 </div>
-
             </div>
-
         </div>
     </div>
     </div>
