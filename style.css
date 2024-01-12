@@ -71,10 +71,6 @@ h1 {
 
 /* -----------------PAGE---------------------- */
 /* -------------FORMULAIRE INSCRIPTION-------------------------- */
-.titre_inscription{
-    color: white;
-    font-weight: bold;
-}
 .rounded{
     background-color: #94E0F9;
     border-radius: 50px;
@@ -83,4 +79,7 @@ h1 {
     background-color: #94E0F9;
     border-radius: 1rem;
 
+}
+label{
+    text-align: center;
 }

@@ -20,14 +20,15 @@
 
             <div class="col-7 row r-4 m-3 p-1 text-center">
                 <div class="titre_inscription">FORMULAIRE D'INSCRIPTION</div>
-                <div class="sous-titre_inscription ">(TPE / PME / ASSOCIATION / STRUCTURE publique ou privée)</div>
+                <div class="text-info">(TPE / PME / ASSOCIATION / STRUCTURE publique ou privée)</div>
             </div>
         </div>
         <!-----------------------------Partie Milieu------------------------------->
-        <!------------------------------------------------------------------->
+        <!------------------------------------------------------------------------->
 
-        <Div class="col-12 p-1 d-flex justify-content-between">
-            <!--------------------------partie gauche-1------------------------------>
+        <Div class="col-12 p-1 d-flex">
+            <!--------------------------partie droite-1------------------------------>
+            <!----------------------------------------------------------------------->
             <div class="col-4 d-flex flex-wrap">
                 <div class="col-12 d-flex flex-wrap align-items-center">
                     <img class="col-3 p-2" src="image/logo blanc.png" alt="">
@@ -37,6 +38,7 @@
             </div>
 
             <!--------------------------partie droite-1------------------------------>
+            <!----------------------------------------------------------------------->
             <div class="col-8 d-flex flex-wrap justify-content-end text-white">
                 <div class="col-12 fs-6 text-end m-1">*renseignement obligatoire
                 </div>
@@ -49,20 +51,21 @@
                 </div>
                 <div class=" col-6 form-floating">
                     <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 60px"></textarea>
-                    <label class="text-dark opacity-25" for="floatingTextarea2">100 caractères</label>
+                    <label class="text-dark opacity-25 text-center" for="floatingTextarea2">100 caractères</label>
                 </div>
                 <div class="col-6 text-white d-flex align-items-center justify-content-end px-4"> Numéro de SIRET</div>
                 <div class="col-6">
-                    <form>
-                        <div class="form-floating">
-                            <!-- <label for="exampleFormControlInput1">Numéro de SIRET</label> -->
+                        <div class="form-floating^">
                             <input type="text" class="form-control text-center" id="siretNumber" placeholder="14 chiffres" pattern="[0-9]{14}" required>
-                    <label class="text-dark opacity-25" for="siretNumber">14 caractères</label>
 
                         </div>
-                        <!-- Vous pouvez ajouter d'autres champs de formulaire ici -->
-                    </form>
                 </div>
+                <div class="col-6 text-white d-flex justify-content-end px-4 pt-3"> Votre champs d'activité *</div>
+                <div class=" col-6 form-floating py-2">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 60px"></textarea>
+                    <label class="text-dark opacity-25" for="floatingTextarea2">100 caractères</label>
+                </div>
+
             </div>
         </div>
     </div>
