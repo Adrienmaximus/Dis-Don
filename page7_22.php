@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid" style= "max-height: 560px">
         <!-----------------------------Partie sup------------------------------->
         <div class="col-12 d-flex justify-content-end">
 
@@ -47,17 +47,17 @@
                         <input type="text" class="form-control text-center" style="height: 30px" id="CP" placeholder="CP" pattern="[0-9]{5}" required>
                     </div>
                     <div class="col-8 ps-1">
-                        <input type="text" class="form-control text-center" style="height: 30px" id="" placeholder="Ville">
+                        <input type="text" class="form-control text-center" style="height: 30px" id="ville" placeholder="Ville">
                     </div>
                 </div>
                 <div class="col-4 text-white d-flex align-items-center justify-content-end px-2 pb-4"> téléphone *
                 </div>
                 <div class="col-8 d-flex flex-wrap justify-content-between px-1">
                     <div class="col-3">
-                        <input type="text" class="form-control" id="" aria-describedby="" placeholder="+33" pattern="[0-9]{3}" required>
+                        <input type="text" class="form-control" id="indicatif" aria-describedby="" placeholder="+33" pattern="[0-9]{3}" required>
                     </div>
                     <div class="col-9 ps-1">
-                        <input type="text" class="form-control" id="" aria-describedby="" pattern="[0-9]{10}" required>
+                        <input type="text" class="form-control" id="telephone" aria-describedby="" pattern="[0-9]{10}" required>
                     </div>
                 </div>
             </div>
@@ -76,7 +76,7 @@
                     </div>
                 </div>
                 <div class=" col-6 form-floating">
-                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 60px"></textarea>
+                    <textarea class="form-control" placeholder="Leave a comment here" id="organisme" style="height: 60px"></textarea>
                     <label class="text-dark opacity-25 text-center" for="floatingTextarea2">100 caractères</label>
                 </div>
                 <div class="col-6 text-white d-flex align-items-center justify-content-end px-4"> Numéro de SIRET
@@ -96,20 +96,19 @@
                 </div>
                 <div class="col-6">
                     <div class="mb-3">
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp">
                     </div>
                 </div>
                 <div class="col-6 d-flex flex-wrap">
                     <div class="col-12 text-white d-flex align-items-center justify-content-end px-4"> Mot de passe *
                     </div>
                     <div class="col-12 sous-titre-2 px-4 ps-5 text-end">
-
                         (8 car. min dont 1 majuscule, 1 chiffre et 1 miniscule )
                     </div>
                 </div>
                 <div class="col-6">
                     <div class="mb-3">
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <input type="email" class="form-control" id="motdepasse" aria-describedby="emailHelp">
                     </div>
                 </div>
             </div>
@@ -118,9 +117,9 @@
         <!--------------------------------------------------------------------->
         <div class="col-12 d-flex flex-wrap mt-4 justify-content-center">
             <div class="col-8 px-2">
-                <div class="form-check text-end">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                    <label class="form-check-label text-white" for="flexCheckDefault">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                    <label class="form-check-label text-white" for="flexCheckDefault2">
                         En cochant cette case, mon organisme accepte les Conditions Générales d'Utilisation.
                     </label>
                 </div>
