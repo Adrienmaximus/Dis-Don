@@ -18,7 +18,7 @@
         <!-----------------------------Partie sup------------------------------->
         <div class="col-12 d-flex justify-content-end">
 
-            <div class="col-7 row r-4 m-3 p-1 text-center">
+            <div class="col-7 row r-4 my-4 mx-3 p-1 text-center">
                 <div class="titre_inscription">FORMULAIRE D'INSCRIPTION</div>
                 <div class="text-info">(TPE / PME / ASSOCIATION / STRUCTURE publique ou privée)</div>
             </div>
@@ -116,14 +116,23 @@
         </div>
         <!-------------------------PARTIE Inférieur---------------------------->
         <!--------------------------------------------------------------------->
-        <div class="col-12 d-flex justify-content-center">
-        <div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-  <label class="form-check-label text-white" for="flexCheckDefault">
-  En cochant cette case, mon organisme accepte les Conditions Générales d'Utilisation.
-  </label>
-</div>
-</div>
+        <div class="col-12 d-flex flex-wrap mt-4 justify-content-center">
+            <div class="col-8 px-2">
+                <div class="form-check text-end">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label text-white" for="flexCheckDefault">
+                        En cochant cette case, mon organisme accepte les Conditions Générales d'Utilisation.
+                    </label>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <div class="text-end"><a href="#" class="col-9 link-underline-light sous-titre">Cliquez ici </a></div>
+                    <div>pour prendre connaissance des CGU</div>
+                </div>
+            </div>
+            <div class="col-4 r-4 p-2 justify-content-center d-flex align-items-center">
+                <div class="titre_inscription text-white fs-5">VALIDER MON FORMULAIRE</div>
+            </div>
         </div>
+    </div>
     </div>
     </div>
