@@ -34,7 +34,7 @@
                     <img class="col-3 p-2" src="image/logo blanc.png" alt="">
                     <div class="col-8 d-flex justify-content-start text-white pe-3" style="font-size:3rem">Dis-Don</div>
                 </div>
-                <div class="col-10 sous-titre">le dispositif Dis-Don est un portail réservé<br>aux organisments et tous utilisateurs<br>domiciliés en France
+                <div class="col-10 sous-titre-2 text-end" style="font-style: italic;">le dispositif Dis-Don est un portail réservé<br>aux organisments et tous utilisateurs<br>domiciliés en France
                 </div>
                 <div class="col-4 text-white pt-2 text-center"> Votre adresse<br>postale *
                 </div>
@@ -129,7 +129,7 @@
                 </div>
             </div>
             <div class="col-4 r-4 p-2 justify-content-center d-flex align-items-center">
-                <div class="titre_inscription text-white fs-5">VALIDER MON FORMULAIRE</div>
+                <div class="btn titre_inscription text-white fs-5">VALIDER MON FORMULAIRE</div>
             </div>
         </div>
     </div>
