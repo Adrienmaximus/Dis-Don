@@ -18,7 +18,7 @@
     <body>
         <div class="container-fluid" style="max-height: 560px">
             <!-----------------------------Partie sup------------------------------->
-            <div class="col-12 p-3">
+            <div class="col-12 mt-5 p-3 d-flex justify-content-between">
                 <div class="col-5 text-center flex-wrap text-white m-3 p-3">
                     <!-- Votre contenu ici -->
                     <p>> Sur cette page, on peut faire du mécénat ou la
@@ -26,7 +26,9 @@
                         déposant leur bannière.</p>
                     <!-------------------------- BANNIERE ----------------------------------->
                 </div>
-               
+                <div class="flex-wrap col-6 d-flex justify-content-end" >
+                    <img src="image/Image_002_3.png" style="width:75%;" alt="image version portable">
+                </div>
             </div>
         </div>
 
