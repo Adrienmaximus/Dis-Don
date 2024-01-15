@@ -14,10 +14,9 @@
 </head>
 
 <body>
-    <div class="container-fluid" style="max-height: 560px">
+    <div class="container-fluid " style="max-height: 560px">
         <!-----------------------------Partie sup------------------------------->
         <div class="col-12 d-flex justify-content-end">
-
             <div class="col-7 row r-4 my-3 mx-3 p-1 text-center">
                 <div class="titre_inscription text-white fs-3 fw-bold">FORMULAIRE D'INSCRIPTION</div>
                 <div class="text-info">(particulier/ bénévole)</div>
