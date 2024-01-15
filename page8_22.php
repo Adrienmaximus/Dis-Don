@@ -32,32 +32,40 @@
             <div class="col-4 d-flex flex-wrap">
                 <div class="col-12 d-flex flex-wrap align-items-center">
                     <img class="col-3 p-2" src="image/logo blanc.png" alt="">
-                    <div class="col-8 d-flex justify-content-start text-white pe-3" style="font-size:3rem">Dis-Don</div>
+                    <div class="col-8 d-flex justify-content-start text-white pe-3" style="font-size:3.5rem">Dis-Don</div>
                 </div>
                 <div class="col-10 sous-titre-2 text-end" style="font-style: italic;">le dispositif Dis-Don est un portail réservé<br>aux organisments et tous utilisateurs<br>domiciliés en France
                 </div>
-                <div class="col-4 text-white pt-2 text-center"> Votre adresse<br>postale *
-                </div>
-                <div class=" col-8 form-floating d-flex flex-wrap pt-1 px-1">
-                    <div class="col-12">
-                        <textarea class="form-control p-1" placeholder="Leave a comment here" id="adresse-postale" style="height: 60px">
-                    </textarea>
+                <!------------------------------------------------------------------>
+                <!------------------------------------------------------------------>
+                <div class="col-12 mt-5 d-flex align-items-center">
+                    <div class="col-5 d-flex flex-wrap justify-content-end text-white">
+                        <h5 class="m-0 text-end pe-2 fs-6">
+                            Pseudo
+                        </h5>
                     </div>
-                    <div class="col-4">
-                        <input type="text" class="form-control p-1 text-center" style="height: 30px" id="CP" placeholder="CP" pattern="[0-9]{5}" required>
-                    </div>
-                    <div class="col-8 ps-1">
-                        <input type="text" class="form-control p-1 text-center" style="height: 30px" id="ville" placeholder="Ville">
+                    <div class="col-7 pb-1">
+                        <input type="text" class="form-control p-1" id="pseudo2" aria-describedby="pseudoHelp">
                     </div>
                 </div>
-                <div class="col-4 text-white d-flex align-items-center justify-content-end px-2 pb-4"> téléphone *
-                </div>
-                <div class="col-8 d-flex flex-wrap justify-content-between px-1">
-                    <div class="col-3">
-                        <input type="text" class="form-control p-1" id="indicatif" aria-describedby="" placeholder="+33" pattern="[0-9]{3}" required>
+
+                <div class="col-12 d-flex align-items-center">
+                    <div class="col-5 d-flex flex-wrap justify-content-end text-white">
+                        <h5 class="m-0 text-end pe-2 fs-6">
+                            Votre email *
+                        </h5>
                     </div>
-                    <div class="col-9 ps-1">
-                        <input type="text" class="form-control p-1" id="telephone" aria-describedby="" pattern="[0-9]{10}" required>
+                    <div class="col-9 pb-1">
+                        <input type="text" class="form-control p-1" id="email2" aria-describedby="emailoHelp">
+                    </div>
+                </div>
+                <div class="col-12 d-flex align-items-center">
+                    <div class="col-5 d-flex flex-wrap justify-content-end text-white">
+                        <h5 class="m-0 text-end pe-2 fs-6">Mot de passe *</h5>
+                    </div>
+                    <div class="col-9 pb-1">
+                        <input type="text" class="col-12 form-control p-1" id="motdepasse2" aria-describedby="motdepasseHelp">
+                        <label class="sous-titre-2 col-12" for="motdepasse2">(8 car. min dont 1 majuscule, 1 chiffre et 1 minuscule)</label>
                     </div>
                 </div>
             </div>
@@ -165,7 +173,7 @@
                     </h5>
                 </div>
                 <div class="col-6 pb-1">
-                    <select class="form-select p-1" aria-label="Default select example" id="sexe">
+                    <select class="form-select p-1" aria-label="Default select example" id="situation">
                         <option selected class="text-center">Choisir dans la liste</option>
                         <option value="1">Marié</option>
                         <option value="2">Célibataire</option>
@@ -178,20 +186,21 @@
         </div>
         <!-------------------------PARTIE Inférieur---------------------------->
         <!--------------------------------------------------------------------->
-        <div class="col-12 d-flex flex-wrap justify-content-center">
-            <div class="col-9 px-2">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
-                    <label class="form-check-label text-white" for="flexCheckDefault2">
-                        En cochant cette case, mon organisme accepte les Conditions Générales d'Utilisation.
-                    </label>
+        <div class="col-12 mt-2 d-flex flex-wrap justify-content-between">
+
+            <div class="col-9 d-flex flex-wrap pe-2">
+                <div class="col-12 form-check d-flex justify-content-end align-items-center">
+                    <input class="form-check-input fs-3" type="checkbox" value="" id="flexCheckDefault2">
+                    <label class="form-check-label ps-2 text-white" for="flexCheckDefault2">En cochant cette case, mon organisme accepte les Conditions Générales d'Utilisation.</label>
                 </div>
-                <div class="d-flex justify-content-end">
-                    <div class="text-end"><a href="#" class="col-9 link-underline-light sous-titre">Cliquez ici </a></div>
-                    <div class="text-white sous-titre">pour prendre connaissance des CGU</div>
+
+                <div class="col-12 d-flex justify-content-end">
+                    <div class="text-end sous-titre-2"><a href="#" class="link-underline-light sous-titre-2">Cliquez ici</a> pour prendre connaissance des CGU</div>
+
                 </div>
             </div>
-            <div class="col-3 r-4 justify-content-center d-flex align-items-center">
+
+            <div class="col-3 r-4 rounded-5 justify-content-center d-flex align-items-center">
                 <div class="btn titre_inscription text-white">VALIDER<br>MON FORMULAIRE</div>
             </div>
         </div>

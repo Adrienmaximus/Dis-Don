@@ -108,7 +108,7 @@
                 </div>
                 <div class="col-6">
                     <div class="mb-3">
-                        <input type="email" class="form-control" id="motdepasse" aria-describedby="emailHelp">
+                        <input type="text" class="form-control" id="motdepasse">
                     </div>
                 </div>
             </div>
@@ -128,7 +128,7 @@
                     <div>pour prendre connaissance des CGU</div>
                 </div>
             </div>
-            <div class="col-4 r-4 p-2 justify-content-center d-flex align-items-center">
+            <div class="col-4 rounded-5 r-4 p-2 justify-content-center d-flex align-items-center">
                 <div class="btn titre_inscription text-white fs-5">VALIDER MON FORMULAIRE</div>
             </div>
         </div>
