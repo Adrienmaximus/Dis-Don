@@ -36,8 +36,6 @@ body{
 h1 {
     color: white;
     padding: 0px;
-    font-size: small;
-    font-style: italic;
     font-size: 500%;
     font-style: normal;
 }
@@ -51,7 +49,7 @@ h1 {
     font-weight: 900;
 }
 
-.chevron {
+.chevron {  
     height: 100px;
     width: 100px;
 }
@@ -86,3 +84,15 @@ h1 {
 label{
     text-align: center;
 }
+.sous-titre-4{
+font-family: 'Didact Gothic', sans-serif;
+color: white;
+text-align: justify;
+font-size: 11px;
+
+}
+.oxygen{
+font-family: 'Oxygen', serif;
+}
+
+/* --------------------------------------------------- */
