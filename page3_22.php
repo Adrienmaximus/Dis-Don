@@ -53,20 +53,19 @@
                         </div>
 
                     </div>
-                    <div class="col-12 d-flex fs-5 align-items-center justify-content-end mt-5 ms-3">
+                    <div class="col-12 d-flex fs-5 align-items-center justify-content-end mt-5 ms-4">
                         <div class="col-3 fw-bold text-white text-end">SUIVEZ-NOUS !</div>
-                        <div class="col-1 text-decoration-line-through ps-2 text-center text-white">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <div class="col-1 mx-3 text-decoration-line-through ps-2 text-center text-white">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </div>
-                        <div class="col-2 text-center
-                        ">
-                            <a href="https://www.facebook.com" class="text-white">
+                        <div class="col-2 d-flex flex-wrap">
+                            <a href="https://www.facebook.com">
                                 <i class="fab fa-facebook-f p-1" style="color: #ffffff;"></i>
                             </a>
-                            <a href="https://www.instagram.com" class="text-white">
+                            <a href="https://www.instagram.com">
                                 <i class="fab fa-instagram p-1" style="color: #ffffff;"></i>
                             </a>
-                            <a href="https://www.linkedin.com/" class="text-white">
+                            <a href="https://www.linkedin.com/home">
                                 <i class="fab fa-linkedin-in p-1" style="color: #ffffff;"></i>
                             </a>
                         </div>
