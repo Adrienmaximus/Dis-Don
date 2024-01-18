@@ -52,11 +52,6 @@
                     <div class="col-12 d-flex align-items-center">
                         <div class="col-5 sous-titre-4">On a hâte d'innover avec vous !</div>
                         <div class="col-4 fw-bold text-white">SUIVEZ-NOUS !</div>
-                        <!-- <div class="col-4">
-                            <i class="fa-brands fa-facebook-f p-1" style="color: #ffffff;" href=""></i>
-                            <i class="fa-brands fa-instagram p-1" style="color: #ffffff;" href=""></i>
-                            <i class="fa-brands fa-linkedin-in p-1" style="color: #ffffff;" href="https://www.linkedin.com/home"></i>
-                        </div> -->
                         <div class="col-4">
                             <a href="https://www.facebook.com">
                                 <i class="fab fa-facebook-f p-1" style="color: #ffffff;"></i>
