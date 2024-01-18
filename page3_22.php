@@ -53,7 +53,7 @@
                         </div>
 
                     </div>
-                    <div class="col-12 d-flex fs-5 align-items-center justify-content-end mt-5 ms-5">
+                    <div class="col-12 d-flex fs-5 align-items-center justify-content-end mt-5 ms-3">
                         <div class="col-3 fw-bold text-white text-end">SUIVEZ-NOUS !</div>
                         <div class="col-1 text-decoration-line-through ps-2 text-center text-white">
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -64,10 +64,10 @@
                                 <i class="fab fa-facebook-f p-1" style="color: #ffffff;"></i>
                             </a>
                             <a href="https://www.instagram.com" class="text-white">
-                                <i class="fab fa-instagram p-1 m-0" style="color: #ffffff;"></i>
+                                <i class="fab fa-instagram p-1" style="color: #ffffff;"></i>
                             </a>
-                            <a href="https://www.linkedin.com" class="text-white">
-                                <i class="fab fa-linkedin-in p-1 m-0" style="color: #ffffff;"></i>
+                            <a href="https://www.linkedin.com/" class="text-white">
+                                <i class="fab fa-linkedin-in p-1" style="color: #ffffff;"></i>
                             </a>
                         </div>
 
