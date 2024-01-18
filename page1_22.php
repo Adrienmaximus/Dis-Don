@@ -18,26 +18,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-
     <body>
         <div class="container-fluid" style="max-height: 560px">
             <!-----------------------------Partie sup------------------------------->
             <div class="col-12 p-3">
 
-                <div class="col-5 text-center flex-wrap text-white m-3 p-3 sous-titre-page-1">
+                <div class="col-5 text-center text-white flex-wrap m-3 mt-5">
                     <!-- Votre contenu ici -->
                     <p>> Sur cette page, on peut faire du mécénat ou la
                         promotion d’ associations qui le souhaitent en
                         déposant leur bannière.</p>
-                    <!-------------------------- BANNIERE ----------------------------------->
+            <!-------------------------- BANNIERE ----------------------------------->
                 </div>
-               
             </div>
         </div>
-
     </body>
-
 </html>
