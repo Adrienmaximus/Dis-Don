@@ -84,6 +84,9 @@ h1 {
 label{
     text-align: center;
 }
+
+/* -------------------page2-------------------------------- */
+
 .sous-titre-4{
 font-family: 'Didact Gothic', sans-serif;
 color: white;
@@ -94,5 +97,22 @@ font-size: 11px;
 .oxygen{
 font-family: 'Oxygen', serif;
 }
+.middle-line {
+    position: relative;
+    text-align: center;
+  }
 
-/* --------------------------------------------------- */
+  .line {
+    border-top: 1px solid #000; /* Couleur de la ligne */
+    width: 3cm; /* Longueur de la ligne */
+    position: absolute;
+    top: 50%; /* Position au milieu de la div parente */
+    transform: translateY(-50%);
+  }
+/* -------------------PAGE1-------------------------------- */
+.sous-titre-1{
+    font-family: 'Didact Gothic', sans-serif;
+    color: red;
+    text-align: justify;
+    font-size: 25px;
+    }
