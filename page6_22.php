@@ -74,7 +74,7 @@
 
             <p class="sous-titre">le dispositif Dis-Don est un portail réservé<br>aux organisments et tous utilisateurs<br>domiciliés en France</p>
             <div class="col-12 d-flex justify-content-center">
-                <img class="chevron" src="image/chevron.png" alt="double chevron vers le bas">
+                <img class="chevron" src="image/Image_005.png" alt="double chevron vers le bas">
             </div>
         <!----------------connexion------------------------------->
 
