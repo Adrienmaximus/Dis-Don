@@ -28,11 +28,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 
-<body>
-
     <body>
         <div class="container-fluid" style="max-height: 560px">
-            <!---------------------------------En heut---------------------------->
+            <!---------------------------------En haut---------------------------->
             <div class="col-12 pt-5 d-flex flex-wrap justify-content-center">
 
                 <div class="col-12 d-flex align-items-center justify-content-center mt-5">
